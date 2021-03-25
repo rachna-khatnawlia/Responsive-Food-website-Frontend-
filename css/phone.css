@@ -1,0 +1,88 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:580px){
+#logo{
+    margin: 0px 0px 0px 0px;
+}
+ul li {
+    margin-right: 3px;
+}
+ul li a{
+    padding:2px 4px;
+    font-size: 15px;
+}
+}
+
+/*Home section:-*/
+
+@media(max-width:600px){
+    #home{
+        padding-bottom:50px;
+    }
+    #home h1{
+        font-size: 30px;
+    }
+    #home::before{
+        height:800px;
+        width:100%;
+    }
+    #home p{
+        font-size: 15px;
+        line-height: 22px;
+        margin:5px;
+    }   
+}
+
+
+/*Services Section:-*/
+@media screen and (max-width:900px){
+    #services-container .services{
+        flex-direction: column;
+    }
+    
+    #services-container .services{
+        justify-content: center;
+        align-items: center;
+        margin:-20px 0px 50px;
+    }
+}
+
+/*Client Section:*/
+#client-container{
+    overflow: hidden;
+    /* flex-wrap: wrap; */
+}
+#client-container img{
+    /* width: 160px;
+    padding: 4px; */
+}
+
+/*Contact-Section*/
+#contact-container h1
+{
+    padding: 34px 20px 5px;
+    margin-bottom: 0px;
+}
+#contact-box label{
+    padding: 5px;
+    width: 65%;
+    font-size: 18px;
+    font-weight: bold;
+}
+#contact-box input, textarea{
+    margin: 2px auto 5px;
+    width: 65%;
+    height: 22px;
+    padding: 3px 6px;
+}
+
+
+
+
+/*Utility Classes*/
+/*Btn*/
+.btn{
+
+}
